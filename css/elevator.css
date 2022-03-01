@@ -1,0 +1,146 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.elevators-body {
+    background-color: #006266;
+}
+
+#dynamicCompartment {
+    position: relative;
+    height: 429.6px;
+    margin: 25px 0 25px 0;
+    padding: 0;
+}
+
+.elevator {
+    position: relative;
+    margin: 0 8px;
+    background-color: #b1e2ff;
+    width: 50px;
+    height: 429.6px;
+    top: 0px;
+    text-align: center;
+    font-size: 24pt;
+}
+
+.compartment {
+    position: absolute;
+  	bottom: 0px;
+  	background-color: #71797E;
+    height: 85px;
+    font-size: 12pt;
+    color: #ffffff;
+    font-weight: 500;
+    overflow: hidden;    
+    width: 50%;
+}
+
+
+.compartment > div {
+    position: relative;
+    top: -340px;
+}
+
+.compartment > div > div {
+    position: relative;
+    height: 85px;
+}
+
+#upDownButtons {
+    position: relative;
+    height: 366px;
+    padding: 0;
+    margin: 0;
+}
+
+.floor-buttons {
+    height: 85px;
+}
+
+.span-floor {
+  margin-left: 50px;
+  color: white;
+}
+
+.button {
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #26253d;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #b1e2ff;
+}
+
+.button:hover .upSide{ border-bottom: 9px solid #26253d;}
+
+.button > .upSide {
+	height: 0; 
+	border-left: 8.5px solid transparent;
+	border-right: 8.5px solid transparent;	
+	border-bottom: 9px solid #ffffff;
+}
+
+.button > .downSide {
+	height: 0; 
+	border-left: 8.5px solid transparent;
+	border-right: 8.5px solid transparent;	
+	border-top: 9px solid white;
+}
+
+.button:hover .downSide{ border-top: 9px solid #26253d;}
+
+#floor-buttons-1 button.button.downSide {
+  display: none;
+}
+
+#floor-buttons-5 button.button.upSide {
+  display: none;
+}
+
+.floor-number-container {
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #26253d;
+    margin-right: 10px;
+}
+
+.floor-number-label {
+  color: rgb(255, 255, 255);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.color-white {
+  color: white;
+}
+
+.maintenance-mode-container {
+  margin: 10px 0;
+}
+
+.maintenance-mode-item {
+  margin: 0 17px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
