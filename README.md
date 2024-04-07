@@ -1,2 +1,2 @@
 # Elevator system
-[Efficient Elevator Systems: A Comprehensive Guide to Elevator System Design and Optimization](https://medium.com/@aakashthoriya/efficient-elevator-systems-a-comprehensive-guide-to-elevator-system-design-and-optimization-2ff2cb52dae2)
+[Efficient Elevator Systems: Building an Interactive Elevator System with HTML, CSS, and JavaScript](https://medium.com/javascript-in-plain-english/building-an-interactive-elevator-system-with-html-css-and-javascript-141fcde8eaff)
